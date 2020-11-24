@@ -1,7 +1,7 @@
 @font-face {
   font-family: Roboto;
-  src: url(../font/Roboto-Bold.woff2) format("woff2"),
-    url(../font/Roboto-Bold.woff) format("woff");
+  src: url(./font/Roboto-Bold.woff2) format("woff2"),
+    url(./font/Roboto-Bold.woff) format("woff");
 }
 body {
   font-family: Roboto, sans-serif;
