@@ -178,7 +178,7 @@ h1 {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background-image: url(../img/arrow.svg);
+	background-image: url(./img/arrow.svg);
 	background-repeat: no-repeat, repeat;
 	background-position: right 0.7em top 50%, 0 0;
 	background-size: 20px auto, 100%;
