@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="script.js" defer></script>
+		<title>Travel & tours</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__head">
+					<a href="#" class="logo"><img src="./images/logo.png" alt="logo-image" class="header__logo" /></a>
+					<a href="#" class="burger">
+						<svg viewBox="0 -53 384 384" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+							/>
+							<path
+								d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+							/>
+							<path
+								d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+							/>
+						</svg>
+					</a>
+					<div class="header__nav-wrapper">
+						<nav class="header__navigation">
+							<ul class="header__nav-list">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Destination</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Partner</a></li>
+							</ul>
+						</nav>
+						<button class="header__btn btn" id="btn-login">Login</button>
+						<button class="header__btn btn">Register</button>
+					</div>
+				</div>
+				<div class="header__content">
+					<div class="header__title">
+						<h1 class="header__title-text">Explore and Travel</h1>
+					</div>
+					<div class="header__form-wrapper">
+						<label for="finder">Holiday finder</label>
+						<form action="submit" class="header__form" name="finder">
+							<select name="finder-select" id="" class="header__select">
+								<option value="1">Location</option>
+							</select>
+							<select name="finder-select" id="" class="header__select">
+								<option value="1">Activity</option>
+							</select>
+							<select name="finder-select" id="" class="header__select">
+								<option value="1">Grade</option>
+							</select>
+							<select name="finder-select" id="" class="header__select">
+								<option value="1">Date</option>
+							</select>
+							<button class="header__search-btn btn">Explore</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<section class="new-way">
+				<div class="new-way__content">
+					<h2 class="new-way__header heading">A new way to explore the world</h2>
+					<p class="new-way__text text">
+						For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+						trip, but now, they can also let Lonely Planet Experiences lead the way
+					</p>
+					<button class="new-way__button btn">Learn more</button>
+				</div>
+			</section>
+			<section class="destinations">
+				<div class="destinations__header">
+					<h2 class="destinations__title heading">Featured destinations</h2>
+					<a href="/" class="destinations__expand expand">View all</a>
+				</div>
+				<div class="destinations__content">
+					<a href="#" class="destinations__card"
+						><div class="destinations__card_captions">
+							<p><span>Raja Ampat</span> Indonesia</p>
+						</div></a
+					>
+					<a href="#" class="destinations__card"
+						><div class="destinations__card_captions">
+							<p><span>Fanjingshan</span> China</p>
+						</div></a
+					>
+					<a href="#" class="destinations__card"
+						><div class="destinations__card_captions">
+							<p><span>Vevey</span> Switzerland</p>
+						</div></a
+					>
+					<a href="#" class="destinations__card"
+						><div class="destinations__card_captions">
+							<p><span>Skadar</span> Montenegro</p>
+						</div></a
+					>
+				</div>
+			</section>
+			<section class="guides">
+				<div class="guides__content">
+					<h2 class="guides__header heading">Guides by Thousand Sunny</h2>
+					<p class="guides__text text">
+						Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the
+						ultimate resource before and during a trip.
+					</p>
+					<button class="guides__button btn">Learn more</button>
+				</div>
+			</section>
+			<section class="testimonals">
+				<h2 class="testimonals__title heading">Testimonials</h2>
+				<div class="testimonals__content">
+					<div class="testimonals__stars">
+						<img src="./images/star.svg" alt="" class="star" />
+						<img src="./images/star.svg" alt="" class="star" />
+						<img src="./images/star.svg" alt="" class="star" />
+						<img src="./images/star.svg" alt="" class="star" />
+						<img src="./images/star.svg" alt="" class="star" />
+					</div>
+					<div class="testimonals__text">
+						<p class="testimonals__review">
+							“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis
+							purus. Morbi blandit sit amet turpis nec”
+						</p>
+						<p class="testimonals__user"><span>Edward Newgate</span><br />Founder Circle</p>
+					</div>
+				</div>
+				<div class="testimonals__card">
+					<div class="testimonals__card_buttons">
+						<svg width="0" height="0" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" class="left slider-button">
+							<path d="M22 25L18 20.5L22 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							<circle cx="20" cy="20" r="19" transform="rotate(-180 20 20)" stroke-width="2" />
+						</svg>
+						<svg
+							width="0"
+							height="0"
+							viewBox="0 0 40 40"
+							xmlns="http://www.w3.org/2000/svg"
+							class="right slider-button"
+						>
+							<path d="M18 15L22 19.5L18 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							<circle cx="20" cy="20" r="19" stroke-width="2" />
+						</svg>
+					</div>
+				</div>
+			</section>
+			<section class="stories">
+				<div class="stories__header">
+					<h2 class="stories__title heading">Trending stories</h2>
+					<a href="#" class="stories__expand expand">View all</a>
+				</div>
+				<div class="stories__content">
+					<div class="stories__card">
+						<div class="stories__card_image"></div>
+						<h4 class="stories__card_title">The many benefits of taking a healing holiday</h4>
+						<p class="stories__card_text">
+							‘Helaing holidays’ are on the rise to help maximise your health and happines...
+						</p>
+						<a href="#" class="stories__read-more">Read more</a>
+					</div>
+					<div class="stories__card">
+						<div class="stories__card_image"></div>
+						<h4 class="stories__card_title">The best Kyoto restaurant to try Japanese food</h4>
+						<p class="stories__card_text">
+							From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...
+						</p>
+						<a href="#" class="stories__read-more">Read more</a>
+					</div>
+					<div class="stories__card">
+						<div class="stories__card_image"></div>
+						<h4 class="stories__card_title">Skip Chichen Itza and head to this remote Yucatan</h4>
+						<p class="stories__card_text">
+							It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...
+						</p>
+						<a href="#" class="stories__read-more">Read more</a>
+					</div>
+					<div class="stories__card">
+						<div class="stories__card_image"></div>
+						<h4 class="stories__card_title">Surf’s up at these beginner spots around the world</h4>
+						<p class="stories__card_text">
+							If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...
+						</p>
+						<a href="#" class="stories__read-more">Read more</a>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__copyright">
+					<a href="#" class="logo"><img src="./images/logo.png" alt="logo-image" class="footer__logo" /></a>
+					<p class="footer__text">
+						Plan and book your perfect trip with expert advice, travel tips destination information from us
+					</p>
+					<p class="copyright">©2020 Thousand Sunny. All rights reserved</p>
+				</div>
+				<div class="footer__sections">
+					<div class="footer__destinations section">
+						<h5 class="footer__sections_heading">Destinations</h5>
+						<ul class="footer__list">
+							<li><a href="#">Africa</a></li>
+							<li><a href="#">Antarctica</a></li>
+							<li><a href="#">Asia</a></li>
+							<li><a href="#">Europe</a></li>
+							<li><a href="#">America</a></li>
+						</ul>
+					</div>
+					<div class="footer__shop section">
+						<h5 class="footer__sections_heading">Shop</h5>
+						<ul class="footer__list">
+							<li><a href="#">Destination Guides</a></li>
+							<li><a href="#">Pictorial & Gifts</a></li>
+							<li><a href="#">Special Offers</a></li>
+							<li><a href="#">Delivery Times</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</div>
+					<div class="footer__interests section">
+						<h5 class="footer__sections_heading">Interests</h5>
+						<ul class="footer__list">
+							<li><a href="#">Adventure Travel</a></li>
+							<li><a href="#">Art And Culture</a></li>
+							<li><a href="#">Wildife And Nature</a></li>
+							<li><a href="#">Family Holidays</a></li>
+							<li><a href="#">Food And Drink</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__socials">
+					<a href="#" class="footer__icons icon">
+						<img src="./images/twitter.svg" alt="" />
+					</a>
+					<a href="#" class="footer__icons icon">
+						<img src="./images/facebook.svg" alt="" />
+					</a>
+					<a href="#" class="footer__icons icon">
+						<img src="./images/instagram.svg" alt="" />
+					</a>
+					<a href="#" class="footer__icons icon">
+						<img src="./images/LinkedIn.svg" alt="" />
+					</a>
+					<a href="#" class="footer__icons icon">
+						<img src="./images/Youtube.svg" alt="" />
+					</a>
+				</div>
+			</div>
+		</footer>
+		<div class="burger-menu">
+			<div class="close-menu"><button class="close-btn">&times;</button></div>
+			<ul class="menu-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Destination</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Partner</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
