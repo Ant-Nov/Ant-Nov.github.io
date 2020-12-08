@@ -1179,11 +1179,6 @@
   .header__head .wrapper-1 .burger {
     display: inline-block;
   }
-  .burger-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .advantages .wrapper-2 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
