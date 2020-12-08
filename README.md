@@ -9,4 +9,4 @@
   
   Верстка:
 1. [Сайт "Travel&tours"](https://ant-nov.github.io/Travel%20&%20tours/ "Перейти на сайт")
-2. [Сайт "MoneyExChange"](https://ant-nov.github.io/MoneyExChange/ "Перейти на сайт")
+2. [Сайт "Money ExChange"](https://ant-nov.github.io/MoneyExChange/ "Перейти на сайт")
