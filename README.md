@@ -10,4 +10,4 @@
   Верстка:
 1. [Сайт "Travel&tours"](https://ant-nov.github.io/Travel%20&%20tours/ "Перейти на сайт")
 2. [Сайт "MoneyExChange"](https://ant-nov.github.io/Money%20ExChange/index.html "Перейти на сайт")
-3. [Сайт "Tajem Agency"](https://ant-nov.github.io/Tajam%20agency/ "Перейти на сайт")
+3. [Сайт "Tajam Agency"](https://ant-nov.github.io/Tajam%20agency/ "Перейти на сайт")
