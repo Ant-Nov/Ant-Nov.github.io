@@ -1,0 +1,66 @@
+:root {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+p {
+	margin: 0;
+}
+
+.root {
+	width: 100%;
+	height: 100vh;
+	background: rgb(243, 243, 127);
+	position: relative;
+}
+
+.charts {
+	height: 500px;
+	width: 700px;
+	background: whitesmoke;
+	position: absolute;
+	left: calc(50% - 350px);
+	top: calc(50% - 250px);
+	display: grid;
+
+	div {
+		border: 0.5px solid black;
+	}
+}
+
+.values {
+	width: 25px;
+	height: 500px;
+	position: absolute;
+	top: calc(50% - 250px);
+	left: calc(50% - 375px);
+	display: grid;
+
+	.value {
+		border-bottom: 1px grey solid;
+		border-right: 1px grey solid;
+
+		div {
+			margin-left: -17px;
+			margin-top: -12px;
+		}
+	}
+}
+
+.indexes {
+	width: 700px;
+	height: 25px;
+	position: absolute;
+	left: calc(50% - 350px);
+	top: calc(50% + 250px);
+	display: grid;
+
+	p {
+		text-align: center;
+	}
+}

@@ -1,0 +1,72 @@
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  background: #f3f37f;
+  position: relative;
+}
+
+.charts {
+  height: 500px;
+  width: 700px;
+  background: whitesmoke;
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(50% - 250px);
+  display: -ms-grid;
+  display: grid;
+}
+
+.charts div {
+  border: 0.5px solid black;
+}
+
+.values {
+  width: 25px;
+  height: 500px;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 375px);
+  display: -ms-grid;
+  display: grid;
+}
+
+.values .value {
+  border-bottom: 1px grey solid;
+  border-right: 1px grey solid;
+}
+
+.values .value div {
+  margin-left: -17px;
+  margin-top: -12px;
+}
+
+.indexes {
+  width: 700px;
+  height: 25px;
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(50% + 250px);
+  display: -ms-grid;
+  display: grid;
+}
+
+.indexes p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
